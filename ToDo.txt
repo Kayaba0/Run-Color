@@ -1,0 +1,6 @@
+-Sprite omino
+-Percorso
+-Telecamera che segue l'omino
+-Salto
+-Swipe (4 direzioni) colore dell'omino che cambia
+-Omino e pavimenti oggetti fisici
