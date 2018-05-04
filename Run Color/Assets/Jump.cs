@@ -4,28 +4,25 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
+    private float jumpForce = 5.0f; //Quanto in alto la pallina sale
+    public GameObject player; //La pallina
 
-    private bool grounded;
-    private float gravity = 14.0f;
-    private float jumpForce = 10.0f;
+    private Vector2 vector0 = new Vector2(0, 0); //Usato per vedere se il player è fermo e quindi può saltare
 
-    private Rigidbody2D rb2d;
-
-    // Use this for initialization
-    private void Start()
+    void Start()
     {
-        rb2d = gameObject.GetComponent<Rigidbody2D>();
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-
+        if (GetComponent<Rigidbody2D>().velocity == vector0) //Controllo se è fermo
+        {
+            if (Input.GetKeyDown(KeyCode.Space)) //Controllo se sto premendo il tasto
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(0, jumpForce); //Salto
+            }
+        }
     }
 
-    private void FixedUpdate()
-    {
-        float h = Input.GetAxis("Horizontal");
-        rb2d.AddForce(Vector2.right * h);
-    }
 }
