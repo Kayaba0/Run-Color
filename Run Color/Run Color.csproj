@@ -222,6 +222,7 @@
     <Compile Include="Assets\Change.cs" />
     <Compile Include="Assets\Jump.cs" />
     <Compile Include="Assets\Pausa.cs" />
+    <Compile Include="Assets\SwitchColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
