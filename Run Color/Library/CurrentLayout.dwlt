@@ -390,9 +390,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 34280000
-    m_LastClickedInstanceID: 10292
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 4c2c0000
+    m_LastClickedInstanceID: 11340
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
     y: 92
     width: 553
     height: 966
-  m_ScrollPosition: {x: 0, y: 148.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -481,9 +481,9 @@ MonoBehaviour:
     height: 588
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34280000
-    m_LastClickedID: 10292
-    m_ExpandedIDs: a6fbffff000000000428000048280000
+    m_SelectedIDs: 6e280000
+    m_LastClickedID: 10350
+    m_ExpandedIDs: a6fbffff0000000048280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,13 +534,13 @@ MonoBehaviour:
     height: 588
   m_SceneLighting: 1
   lastFramingTime: 2336.6914440660476
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.5599997, y: 0.83813477, z: 8.855687}
+    m_Target: {x: -24.301704, y: -3.8347573, z: 33.90157}
     speed: 2
-    m_Value: {x: -2.5599997, y: 0.83813477, z: 8.855687}
+    m_Value: {x: -24.301704, y: -3.8347573, z: 33.90157}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -555,27 +555,27 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.035389774, y: -0.35117817, z: 0.0132845845, w: 0.9355453}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.035389774, y: -0.35117817, z: 0.0132845845, w: 0.9355453}
   m_Size:
-    m_Target: 13.98925
+    m_Target: 67.30886
     speed: 2
-    m_Value: 13.98925
+    m_Value: 67.30886
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.02518643, y: -0.009593972, z: -0.00024171581, w: 0.9996367}
+  m_LastSceneViewRotation: {x: 0.083115526, y: 0.1601327, z: -0.0135325985, w: 0.98349696}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

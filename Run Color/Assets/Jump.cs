@@ -11,7 +11,7 @@ public class Jump : MonoBehaviour
     private Vector2 vector0 = new Vector2(0, 0); //Usato per vedere se il player è fermo e quindi può saltare
 
     private bool grounded = false;
-    private float speed = 0.002f;
+    //private float speed = 0.002f;
 
   
 
@@ -23,7 +23,7 @@ public class Jump : MonoBehaviour
 
     void Update()
     {
-        //GetComponent<Rigidbody2D>().velocity = new Vector2(2, 0); //Avanzamento automatico 
+        GetComponent<Rigidbody2D>().velocity = new Vector2(4, GetComponent<Rigidbody2D>().velocity.y + 0); //Avanzamento automatico 
         //transform.position = new Vector2(player.position.x + 0.09f, 0); //Avanzamento automatico alternativa<
         //if (GameObject.Find("Green Line").GetComponent<BoxCollider2D>().bounds.Contains(GetComponent<BoxCollider2D>().bounds.min)) //vedere se i bound si intersecano
         
@@ -33,7 +33,7 @@ public class Jump : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Space)) //Controllo se sto premendo il tasto
                 {
-                    GetComponent<Rigidbody2D>().velocity = new Vector2(4, jumpForce); //Salto //Problema che salta solo quando l'oggetto è fermo, devo fare il collider con la  linea
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(0, jumpForce); //Salto //Problema che salta solo quando l'oggetto è fermo, devo fare il collider con la  linea
                 }
             }
         }

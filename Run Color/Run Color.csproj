@@ -219,6 +219,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraTrackers.cs" />
     <Compile Include="Assets\Change.cs" />
     <Compile Include="Assets\Jump.cs" />
     <Compile Include="Assets\Pausa.cs" />
