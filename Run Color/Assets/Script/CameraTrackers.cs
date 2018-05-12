@@ -13,7 +13,7 @@ public class CameraTrackers : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         Vector3 p = transform.position;
-        p.x = p.x + 0.05f;
+        p.x = p.x + 0.065f; //Velocità giusta della telecamera, controllare quando il player va a sbattere "di fronte" alla linea
         transform.position = p;
     }
 

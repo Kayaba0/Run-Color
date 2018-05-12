@@ -219,11 +219,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraTrackers.cs" />
-    <Compile Include="Assets\Change.cs" />
-    <Compile Include="Assets\Jump.cs" />
-    <Compile Include="Assets\Pausa.cs" />
-    <Compile Include="Assets\SwitchColor.cs" />
+    <Compile Include="Assets\Script\CameraTrackers.cs" />
+    <Compile Include="Assets\Script\Change.cs" />
+    <Compile Include="Assets\Script\Jump.cs" />
+    <Compile Include="Assets\Script\LineColorProperty.cs" />
+    <Compile Include="Assets\Script\Pausa.cs" />
+    <Compile Include="Assets\Script\Spawn.cs" />
+    <Compile Include="Assets\Script\SwitchColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
