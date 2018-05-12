@@ -5,11 +5,11 @@ using UnityEngine;
 public class LineColorProperty : MonoBehaviour {
 
     private string color;
-
     public Sprite Blue;
     public Sprite Green;
     public Sprite Orange;
     public Sprite Red;
+
 
     public string getColor()
     {
@@ -20,12 +20,22 @@ public class LineColorProperty : MonoBehaviour {
     {
         color = NewColor;
     }
-  
 
-	// Use this for initialization
-	void Start () {
-       /* if(color.Equals("Red"))
-               GetComponent<SpriteRenderer>().sprite = Red;
+    public LineColorProperty()
+    {
+       
+    }
+
+    /*public LineColorProperty(string c)
+    {
+        color = c;
+    }*/
+
+
+    // Use this for initialization
+    void Start () {
+      /*  if(color.Equals("Red"))
+           GetComponent<SpriteRenderer>().sprite = Red;
 
         if (color.Equals("Green"))
             GetComponent<SpriteRenderer>().sprite = Green;
